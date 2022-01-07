@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Assignment 4</title>
+</head>
+<body>
+    <input type = "button" onclick = "imRight()" value = "Hello">
+    <input type = "button" onclick = "noImRight()" value = "Hello">
+    <div id = "buttonMessage">
+    </div>
+    <div onMouseOver = "dontHoverReveal()" onMouseOut = "dontHoverHide()" class = "dontHoverOver">
+        <p>Don't hover me!<p>
+        <div id = "dontHover" class = "hoverMessage">
+            <h1>Hey, I told you not to hover me!</h1>
+        </div>
+    </div>
+
+    <div>
+        <label>Username:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" id="lname"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw"><br><br>
+        <input type="submit" value="Submit" onclick = "passwordCheck()">
+        <h1 class = "checkPW"></h1>
+    </div>
+
+    <div>
+        <br><p>To calculate the volume of a sphere, enter the radius</p>
+        <label>Radius</label><br>
+        <input type="number" id="radius"><br><br>
+        <input type="submit" value="Calculate Volume" onclick = "volumeCalculate()">
+        <p class = "sphereVol"></p>
+    </div>
+</body>
+</html>

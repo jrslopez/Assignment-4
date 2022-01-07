@@ -1,0 +1,23 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hoverMessage {
+    visibility:hidden;
+    font-weight: bold;
+    color: red;
+  }
+
+.dontHoverOver{
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    border: 15x solid green;
+    padding: 50px;
+    color: blue;
+  }
+
+.checkPW{
+    font-size: 12px;
+    color: rgb(235, 92, 92)
+}
